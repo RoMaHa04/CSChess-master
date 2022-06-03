@@ -1,0 +1,11 @@
+C:\Users\navrr\Desktop\chess-master\bin\debug\Chess.exe.config
+C:\Users\navrr\Desktop\chess-master\bin\debug\Chess.exe
+C:\Users\navrr\Desktop\chess-master\bin\debug\Chess.pdb
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.csproj.AssemblyReference.cache
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.csproj.SuggestedBindingRedirects.cache
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.MainForm.resources
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.Properties.Resources.resources
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.csproj.GenerateResource.cache
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.csproj.CoreCompileInputs.cache
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.exe
+C:\Users\navrr\Desktop\chess-master\project\Chess\obj\x86\Debug\Chess.pdb
