@@ -30,7 +30,7 @@ namespace Chess
                     Board[i][j] = new PictureBox();
                     Board[i][j].Parent = this.splitView.Panel1;
                     Board[i][j].Click += BoardClick;
-                    Board[i][j].BackColor = ((j + i) % 2 == 0) ? Color.Green : Color.Gray;
+                    Board[i][j].BackColor = ((j + i) % 2 == 0) ? Color.FromArgb(240, 218, 181) : Color.FromArgb(180, 134, 99);
                     Board[i][j].SizeMode = PictureBoxSizeMode.StretchImage;
                 }
             }
@@ -98,7 +98,7 @@ namespace Chess
                 // clear board
                 for (int i = 0; i < 8; i++)
                     for (int j = 0; j < 8; j++)
-                        Board[i][j].BackColor = ((i + j) % 2 == 0) ? Color.Black : Color.White;
+                        Board[i][j].BackColor = ((i + j) % 2 == 0) ? Color.FromArgb(240, 218, 181) : Color.FromArgb(180,134,99);
 
                 for (int i = 0; i < 8; i++)
                 {
