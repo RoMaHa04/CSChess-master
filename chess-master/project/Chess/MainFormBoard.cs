@@ -121,7 +121,7 @@ namespace Chess
                                 else
                                 {
                                     // move
-                                    Board[move.number][move.letter].BackColor = Color.Yellow;
+                                    Board[move.number][move.letter].BackColor = ((move.number + move.letter) % 2 == 0) ? Color.FromArgb(129, 151, 105) : Color.FromArgb(100, 110, 64);
                                 }
                             }
                         }
