@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newAIGame = new System.Windows.Forms.ToolStripMenuItem();
@@ -366,7 +367,7 @@
             // lblStatus
             // 
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(63, 17);
+            this.lblStatus.Size = new System.Drawing.Size(62, 17);
             this.lblStatus.Text = "Thinking...";
             // 
             // splitView
@@ -503,10 +504,11 @@
             this.Controls.Add(this.splitView);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MinimumSize = new System.Drawing.Size(650, 500);
             this.Name = "MainForm";
-            this.Text = "Chess";
+            this.Text = "Chessapr";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.windowClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
